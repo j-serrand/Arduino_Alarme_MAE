@@ -12,7 +12,7 @@ Deux actionneurs TOR :
 
 ## Fonctionnement
 Le fonctionnement est le suivant : Une fois l'alarme armée MA à "1", le passage à "1" de IR ou ILS provoque le passage à "1" de SIR et GYR restant actif jusqu'au retour à "0" de MA. Le système fonctionne grâce à une machine à états avec actions de type actions de mise à zéro explicites (AMZE).
-
+toto.
 ##Machine à états
 ![](MAE.png)
 
