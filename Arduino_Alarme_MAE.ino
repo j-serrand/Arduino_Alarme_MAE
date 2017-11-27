@@ -151,6 +151,16 @@ void traitement_MAE(void)
   actions_sur_etat();
 }
 
+//Initialisations
+void setup(void)
+{
+  pinMode(pin_IR,INPUT);
+  pinMode(pin_ILS,INPUT);
+  pinMode(pin_MA,INPUT);
+  pinMode(pin_SIR,OUTPUT);
+  pinMode(pin_GYR,OUTPUT);
+
+}
 
 //Programme principal
 void loop(void)
